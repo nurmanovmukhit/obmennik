@@ -2,7 +2,7 @@
 date_default_timezone_set('Asia/Tashkent');
 $json = file_get_contents ('php://input');
 $data = json_decode($json,true);
-$token = '715472025:AAF9eHpHbTSdGglATVE46rpMRsPDzRjDnV4';
+$token = '1206351513:AAG5qE1VIEe1Yv_ONc3dVToSRkOp4XpeH4s';
 $server = 'https://api.telegram.org/bot'.$token;
 $date = date("d.m.Y  H:i");
 $admin = "986727421";
